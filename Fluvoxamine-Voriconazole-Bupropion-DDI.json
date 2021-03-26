@@ -1,0 +1,3778 @@
+{
+  "Version": 77,
+  "Individuals": [
+    {
+      "Name": "Bosilkovska 2014 (n=10)",
+      "Seed": 1987554906,
+      "OriginData": {
+        "CalculationMethods": [
+          "Body surface area - Mosteller",
+          "SurfaceAreaPlsInt_VAR1"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 24.2,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 73.0,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 182.3,
+          "Unit": "cm"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Ontogeny factor GI",
+              "Value": 0.9692951987
+            }
+          ]
+        },
+        {
+          "Name": "CYP2D6",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.00768702814
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.768702814
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0208304736
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0223404255
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0909402883
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP2D6"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.4,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 51.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "UGT2B7",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0792387223
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.1305041205
+            },
+            {
+              "Name": "Kidney",
+              "Value": 1.0
+            },
+            {
+              "Name": "Periportal",
+              "Value": 0.2346862128
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 0.2346862128
+            },
+            {
+              "Name": "Skin",
+              "Value": 0.0308645644
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.1271028503
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0395483736
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0395483736
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0395483736
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0395483736
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0395483736
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0395483736
+            }
+          ],
+          "Ontogeny": {
+            "Name": "UGT2B7"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 2.776,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Margaillan"
+              }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2C19",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.00014961101137
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0003526545268
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.00015816021202
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00040608703086
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.3238009746
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.3238009746
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.3238009746
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.3238009746
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.3238009746
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.3238009746
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP2C19"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.76,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 26.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "HSD11B1",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "Value": 0.0368038765
+            },
+            {
+              "Name": "Brain",
+              "Value": 0.0906688614
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.2056497563
+            },
+            {
+              "Name": "Heart",
+              "Value": 0.0573022218
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0671365017
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.08318438
+            },
+            {
+              "Name": "Muscle",
+              "Value": 0.064769922
+            },
+            {
+              "Name": "Pancreas",
+              "Value": 0.0676772901
+            },
+            {
+              "Name": "Skin",
+              "Value": 0.2952517396
+            },
+            {
+              "Name": "Spleen",
+              "Value": 0.1002124904
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0423806899
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0893871822
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.0390770857
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0893871822
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0893871822
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0893871822
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0893871822
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0893871822
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.0390770857
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.0390770857
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.0390770857
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.0390770857
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2B6",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0021211129296
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0063502454992
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.1043535188
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.5970540098
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0703109656
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0703109656
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0703109656
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0703109656
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0703109656
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0703109656
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.56,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 32.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "Binding Partner (NRT)",
+          "Type": "OtherProtein",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "ExtracellularMembrane",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 1.0
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.2774959896
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.4190466227
+            },
+            {
+              "Name": "Muscle",
+              "Value": 0.1216371071
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.184793582
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.184793582
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.184793582
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.184793582
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.184793582
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.184793582
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP1A2",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Gonads",
+              "Value": 0.00029559748428
+            },
+            {
+              "Name": "Kidney",
+              "Value": 4.4025157233E-06
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 2.4947589099E-05
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP1A2"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.8,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 39.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Bupropion",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Fit",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 2.7021273986,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 16.0,
+              "Unit": "%",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Unknown",
+                "Description": "Reese 2018"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "ph 7.4 phosphate buffer",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 364.56,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVivo",
+                "Description": "Muralidhar 2017"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.4,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVivo",
+                "Description": "Muralidhar 2017"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Fit",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 3.2956477903E-05,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 8.75,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Method": "InVitro",
+            "Description": "Takayanagi 2017"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0
+            }
+          ]
+        },
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "Wang 2010 - Erythrohydrobupropion",
+          "Molecule": "HSD11B1",
+          "Metabolite": "Erythrohydrobupropion",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 0.0,
+              "Unit": "pmol/min/pmol rec. enzyme"
+            },
+            {
+              "Name": "Km",
+              "Value": 39.1,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Wang 2010"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 2.5061950377,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "Wang 2010 - Threohydrobupropion",
+          "Molecule": "HSD11B1",
+          "Metabolite": "Threohydrobupropion",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 0.0,
+              "Unit": "pmol/min/pmol rec. enzyme"
+            },
+            {
+              "Name": "Km",
+              "Value": 39.1,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Wang 2010"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 8.184751082,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "Chen 2010",
+          "Molecule": "CYP2C19",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 0.0,
+              "Unit": "nmol/min/pmol rec. enzyme"
+            },
+            {
+              "Name": "Km",
+              "Value": 8.3,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Chen 2010"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 2.5852197524,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "SpecificBinding",
+          "DataSource": "Assumed",
+          "Molecule": "Binding Partner",
+          "Parameters": [
+            {
+              "Name": "koff",
+              "Value": 0.0463404451,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            },
+            {
+              "Name": "Kd",
+              "Value": 0.441,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "*4 allele 1",
+          "Molecule": "CYP2B6",
+          "Metabolite": "Hydroxybupropion",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 18.125,
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Wang 2020 ((Vmax1* CL1 + Vmax2*CL2)/(Cl1+Cl2))"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 12.7,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Wang 2020 ((Km1* CL1 + Km2*CL2)/(Cl1+Cl2))"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "*4 allele 2",
+          "Molecule": "CYP2B6",
+          "Metabolite": "Hydroxybupropion",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 18.13,
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Wang 2020 ((Vmax1* CL1 + Vmax2*CL2)/(Cl1+Cl2))"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 12.7,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Wang 2020 ((Km1* CL1 + Km2*CL2)/(Cl1+Cl2))"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "*5 allele 1",
+          "Molecule": "CYP2B6",
+          "Metabolite": "Hydroxybupropion",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 11.28,
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Wang 2020 ((Vmax1* CL1 + Vmax2*CL2)/(Cl1+Cl2))"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 15.59,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Wang 2020 ((Km1* CL1 + Km2*CL2)/(Cl1+Cl2))"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "*5 allele 2",
+          "Molecule": "CYP2B6",
+          "Metabolite": "Hydroxybupropion",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 11.28,
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Wang 2020 ((Vmax1* CL1 + Vmax2*CL2)/(Cl1+Cl2))"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 15.59,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": " Wang 2020 ((Km1* CL1 + Km2*CL2)/(Cl1+Cl2))"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "NM (*1l*1)",
+          "Molecule": "CYP2B6",
+          "Metabolite": "Hydroxybupropion",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 492.8,
+              "Unit": "pmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Xu 2012"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 25.8,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Xu 2012 (corrected with microsomal fu)"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 21.7373226781,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "PM (*6 l *6)",
+          "Molecule": "CYP2B6",
+          "Metabolite": "Hydroxybupropion",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 112.9,
+              "Unit": "pmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Xu 2012"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 61.26,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Xu 2012 (corrected with microsomal fu)"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 19.0361211818,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "*1 allele 1",
+          "Molecule": "CYP2B6",
+          "Metabolite": "Hydroxybupropion",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Km",
+              "Value": 25.8,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Xu 2012 (corrected with microsomal fu)"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 10.868661339,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Half of NM kcat"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "*1 allele 2",
+          "Molecule": "CYP2B6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Km",
+              "Value": 25.8,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Xu 2012 (corrected with microsomal fu)"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 10.868661339,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "half of NM kcat"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "*6 allele 1",
+          "Molecule": "CYP2B6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Km",
+              "Value": 61.26,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Xu 2012 (corrected with microsomal fu)"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 9.5180605909,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "*6 allele 2",
+          "Molecule": "CYP2B6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Km",
+              "Value": 61.62,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Xu 2012 (corrected with microsomal fu)"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 9.5180605909,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - PK-Sim Standard",
+        "Cellular permeability - Charge dependent Schmitt"
+      ],
+      "Parameters": [
+        {
+          "Name": "Cl",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Internet",
+            "Method": "Other",
+            "Description": "Chemicalize"
+          }
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 239.741,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Internet",
+            "Method": "Other",
+            "Description": "Chemicalize"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Hydroxybupropion",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Fit",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.9,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 23.0,
+              "Unit": "%",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Unknown",
+                "Description": "Reese 2008"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Chemicalize",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 0.91,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Database",
+                "Method": "Assumption",
+                "Description": "Chemicalize"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.4,
+              "ValueOrigin": {
+                "Source": "Database",
+                "Method": "Assumption",
+                "Description": "Chemicalize"
+              }
+            },
+            {
+              "Name": "Solubility gain per charge",
+              "Value": 1000.0,
+              "ValueOrigin": {
+                "Source": "Database",
+                "Method": "Assumption",
+                "Description": "Chemicalize"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 7.65,
+          "ValueOrigin": {
+            "Source": "Internet",
+            "Method": "Other",
+            "Description": "Chemicalize"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "Gufford 2016",
+          "Molecule": "UGT2B7",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 739.0,
+              "Unit": "pmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Gufford 2016"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 14.64,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Gufford 2016 (corrected with microsomal fu)"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 1.3802747353,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Berezhkovskiy",
+        "Cellular permeability - Charge dependent Schmitt"
+      ],
+      "Parameters": [
+        {
+          "Name": "Cl",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Internet",
+            "Method": "Other",
+            "Description": "Chemicalize"
+          }
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 255.74,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Internet",
+            "Method": "Other",
+            "Description": "Chemicalize"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Threohydrobupropion",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Fit",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.7570994314,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 58.0,
+              "Unit": "%",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Unknown",
+                "Description": "Reese 2008"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Chemicalize",
+          "Parameters": [
+            {
+              "Name": "Solubility table",
+              "Value": 241.76,
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "Internet",
+                "Method": "Other",
+                "Description": "Chemicalize"
+              },
+              "TableFormula": {
+                "Name": "Solubility",
+                "XName": "pH",
+                "XDimension": "Dimensionless",
+                "YName": "Solubility",
+                "YDimension": "Concentration (mass)",
+                "YUnit": "mg/l",
+                "UseDerivedValues": false,
+                "Points": [
+                  {
+                    "X": 1.7,
+                    "Y": 241.76,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 4.6,
+                    "Y": 241.76,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 6.5,
+                    "Y": 241.76,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 7.4,
+                    "Y": 82.98,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 8.0,
+                    "Y": 21.14,
+                    "RestartSolver": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 9.71,
+          "ValueOrigin": {
+            "Source": "Internet",
+            "Method": "Other",
+            "Description": "Chemicalize"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "Gufford 2016",
+          "Molecule": "UGT2B7",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 358.0,
+              "Unit": "pmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Gufford 2016"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 6.2,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Guffor 2016 (corrected with microsomal fu)"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 0.1005598733,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Berezhkovskiy",
+        "Cellular permeability - Charge dependent Schmitt"
+      ],
+      "Parameters": [
+        {
+          "Name": "Cl",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Internet",
+            "Method": "Other",
+            "Description": "Chemicalize"
+          }
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 241.757,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Internet",
+            "Method": "Other",
+            "Description": "Chemicalize"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Erythrohydrobupropion",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Fit",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.7570994314,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 58.0,
+              "Unit": "%",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Unknown",
+                "Description": "Reese 2008"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Chemicalize",
+          "Parameters": [
+            {
+              "Name": "Solubility table",
+              "Value": 241.76,
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "Internet",
+                "Method": "Other",
+                "Description": "Chemicalize"
+              },
+              "TableFormula": {
+                "Name": "Solubility",
+                "XName": "pH",
+                "XDimension": "Dimensionless",
+                "YName": "Solubility",
+                "YDimension": "Concentration (mass)",
+                "YUnit": "mg/l",
+                "UseDerivedValues": false,
+                "Points": [
+                  {
+                    "X": 1.7,
+                    "Y": 241.76,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 4.6,
+                    "Y": 241.76,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 6.4,
+                    "Y": 241.76,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 7.4,
+                    "Y": 82.98,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 8.0,
+                    "Y": 21.14,
+                    "RestartSolver": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 9.71,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Method": "Assumption",
+            "Description": "Chemicalize"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "Gufford 2016",
+          "Molecule": "UGT2B7",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 1740.0,
+              "Unit": "pmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Gufford 2016"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 9.325,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Guffor 2016 (corrected with microsomal fu)"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 0.3769842793,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Berezhkovskiy",
+        "Cellular permeability - Charge dependent Schmitt"
+      ],
+      "Parameters": [
+        {
+          "Name": "Cl",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Internet",
+            "Method": "Other",
+            "Description": "Chemicalize"
+          }
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 241.757,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Internet",
+            "Method": "Other",
+            "Description": "Chemicalize"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Voriconazole",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.8,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Xia 2020"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.42,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Xia 2020"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Solubility",
+          "Parameters": [
+            {
+              "Name": "Solubility table",
+              "Value": 3200.0,
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Xia 2020"
+              },
+              "TableFormula": {
+                "Name": "Solubility",
+                "XName": "pH",
+                "XDimension": "Dimensionless",
+                "YName": "Solubility",
+                "YDimension": "Concentration (mass)",
+                "YUnit": "mg/l",
+                "UseDerivedValues": false,
+                "Points": [
+                  {
+                    "X": 1.0,
+                    "Y": 3200.0000000000005,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 1.2,
+                    "Y": 2700.0000000000005,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 7.0,
+                    "Y": 1000.0000000000001,
+                    "RestartSolver": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 0.000271,
+              "Unit": "cm/s"
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 1.6,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "Xia 2020"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationSpecific_MM",
+          "DataSource": "Xia 2020 - CYP3A4",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "Enzyme concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 0.0,
+              "Unit": "µmol/l/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 15.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Xia 2020"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 2.12,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Xia 2020"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Xia 2020"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationSpecific_MM",
+          "DataSource": "Xia 2020 - CYP2C19",
+          "Molecule": "CYP2C19",
+          "Parameters": [
+            {
+              "Name": "Enzyme concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 0.0,
+              "Unit": "µmol/l/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 3.5,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Xia 2020"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 1.19,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Xia 2020"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "IrreversibleInhibition",
+          "DataSource": "Xia 2020",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "kinact",
+              "Value": 0.015,
+              "Unit": "1/min"
+            },
+            {
+              "Name": "K_kinact_half",
+              "Value": 9.33,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Jeong 2009",
+          "Molecule": "CYP2B6",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 0.072738053,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Jeong 2009",
+          "Molecule": "CYP2C19",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 4.567,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Jeong 2009"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Poulin and Theil",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "F",
+          "Value": 3.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 349.3,
+          "Unit": "g/mol"
+        }
+      ]
+    },
+    {
+      "Name": "Fluvoxamine",
+      "IsSmallMolecule": true,
+      "Lipophilicity": [
+        {
+          "Name": "PI",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 3.5726507829,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Final_fit"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Claassen, 1983",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.23,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Unknown",
+                "Description": "Claassen et al., Review of the animal pharmacology and pharmacokinetics of fluvoxamine. Br. J. Clin. Pharmacol. 15, 349S-355S (1983)."
+              }
+            }
+          ],
+          "Description": "-"
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Water",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 14.66,
+              "Unit": "mg/ml"
+            }
+          ],
+          "Description": "MSDS"
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Fitted",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 2.7380788903E-06,
+              "Unit": "dm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Final_fit"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 9.4
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "Fit",
+          "Molecule": "CYP1A2",
+          "Parameters": [
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 45.0,
+              "Unit": "pmol/mg mic. protein"
+            },
+            {
+              "Name": "Km",
+              "Value": 0.0073460807948,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Final_fit"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 0.0155447966,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Final_fit"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "4% Urine",
+          "Species": "Human"
+        },
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "Miura2007",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 0.69,
+              "Unit": "pmol/min/pmol rec. enzyme"
+            },
+            {
+              "Name": "Km",
+              "Value": 76.3,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 110.5561921693,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Final_fit"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MixedInhibition",
+          "DataSource": "Karjalainen2008/Yao2001",
+          "Molecule": "CYP1A2",
+          "Parameters": [
+            {
+              "Name": "Ki_c",
+              "Value": 10.0,
+              "Unit": "nmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Karjalainen et al. In vitro inhibition of CYP1A2 by model inhibitors, anti-inflammatory analgesics and female sex steroids: predictability of in vivo interactions. Basic Clin. Pharmacol. Toxicol. 103, 157–65 (2008) and Yao, C. et al. Fluvoxamine-theophylline interaction: gap between in vitro and in vivo inhibition constants toward cytochrome P4501A2. Clin. Pharmacol. Ther. 70, 415–24 (2001)"
+              }
+            },
+            {
+              "Name": "Ki_u",
+              "Value": 10.0,
+              "Unit": "nmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Karjalainen et al. In vitro inhibition of CYP1A2 by model inhibitors, anti-inflammatory analgesics and female sex steroids: predictability of in vivo interactions. Basic Clin. Pharmacol. Toxicol. 103, 157–65 (2008) and Yao, C. et al. Fluvoxamine-theophylline interaction: gap between in vitro and in vivo inhibition constants toward cytochrome P4501A2. Clin. Pharmacol. Ther. 70, 415–24 (2001)"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Olesen2000/Yao2001",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 1.6,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Olesen et al. Fluvoxamine-Clozapine drug interaction: inhibition in vitro of five cytochrome P450 isoforms involved in clozapine metabolism. J. Clin. Psychopharmacol. 20, 35–42 (2000) and Yao, C. et al. Fluvoxamine-theophylline interaction: gap between in vitro and in vivo inhibition constants toward cytochrome P4501A2. Clin. Pharmacol. Ther. 70, 415–24 (2001)"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Foti 2008",
+          "Molecule": "CYP2C19",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 0.013,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Hesse 2000",
+          "Molecule": "CYP2B6",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 4.02,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Schmitt",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 318.335,
+          "Unit": "g/mol"
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "Fluvoxamine - Solution",
+      "FormulationType": "Formulation_Dissolved"
+    },
+    {
+      "Name": "Voriconazole - Tablet",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 30.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 1.29
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    },
+    {
+      "Name": "Bupropion - Capsule (Geneva Cocktai)",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 10.6360885426,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 11' on 2020-09-16 22:09"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 4.4252031231,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 11' on 2020-09-16 22:09"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "Bupropion - po, 25 mg sd",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 12.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 21.7,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 168.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Voriconazole - po, 400 mg sd",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 400.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 178.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Fluvoxamine - po, 50 mg md",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "InputDose",
+                  "Value": 36.64,
+                  "Unit": "mg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 178.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "Schema 2",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 36.64,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 168.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Bosilkovska 2014 - Bupropion 25 mg Capsule + 50 mg Fluvoxamine + 400 mg Voriconazole (n=10)",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Bosilkovska 2014 DDI Inhibitor - Bupropion (n=10)",
+        "Bosilkovska 2014 DDI Inhibitor - Hydroxyburpopion (n=10)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 150.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 0.5,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 150.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 270.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Bupropion - po, 25 mg sd|Bupropion - Capsule (Geneva Cocktai)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Fluvoxamine - po, 50 mg md|Fluvoxamine - Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Fluvoxamine - po, 50 mg md|Fluvoxamine - Solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Voriconazole - po, 400 mg sd|Voriconazole - Tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Bupropion|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Hydroxybupropion|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Erythrohydrobupropion|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Threohydrobupropion|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Voriconazole|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Bosilkovska 2014 (n=10)",
+      "Compounds": [
+        {
+          "Name": "Bupropion",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - Charge dependent Schmitt"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "Name": "CYP2C19-Chen 2010",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "HSD11B1-Wang 2010 - Threohydrobupropion",
+              "MoleculeName": "HSD11B1",
+              "MetaboliteName": "Threohydrobupropion"
+            },
+            {
+              "Name": "HSD11B1-Wang 2010 - Erythrohydrobupropion",
+              "MoleculeName": "HSD11B1",
+              "MetaboliteName": "Erythrohydrobupropion"
+            },
+            {
+              "Name": "CYP2B6-*1 allele 1",
+              "MoleculeName": "CYP2B6",
+              "MetaboliteName": "Hydroxybupropion"
+            },
+            {
+              "Name": "CYP2B6-*6 allele 2",
+              "MoleculeName": "CYP2B6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "HSD11B1"
+            },
+            {
+              "MoleculeName": "CYP2B6"
+            },
+            {
+              "Name": "Binding Partner-Assumed",
+              "MoleculeName": "Binding Partner (NRT)"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            }
+          ],
+          "Protocol": {
+            "Name": "Bupropion - po, 25 mg sd",
+            "Formulations": [
+              {
+                "Name": "Bupropion - Capsule (Geneva Cocktai)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Hydroxybupropion",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - Charge dependent Schmitt"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "HSD11B1"
+            },
+            {
+              "Name": "UGT2B7-Gufford 2016",
+              "MoleculeName": "CYP2B6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Erythrohydrobupropion",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - Charge dependent Schmitt"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "HSD11B1"
+            },
+            {
+              "Name": "UGT2B7-Gufford 2016",
+              "MoleculeName": "CYP2B6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Threohydrobupropion",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - Charge dependent Schmitt"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "HSD11B1"
+            },
+            {
+              "Name": "UGT2B7-Gufford 2016",
+              "MoleculeName": "CYP2B6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Voriconazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Poulin and Theil",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Xia 2020 - CYP3A4",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "Name": "CYP2C19-Xia 2020 - CYP2C19",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "HSD11B1"
+            },
+            {
+              "MoleculeName": "CYP2B6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Voriconazole - po, 400 mg sd",
+            "Formulations": [
+              {
+                "Name": "Voriconazole - Tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Fluvoxamine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Schmitt",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fitted",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2D6-Miura2007",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "HSD11B1"
+            },
+            {
+              "MoleculeName": "CYP2B6"
+            },
+            {
+              "Name": "CYP1A2-Fit",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "Glomerular Filtration-4% Urine",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Fluvoxamine - po, 50 mg md",
+            "Formulations": [
+              {
+                "Name": "Fluvoxamine - Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 180.0,
+              "Max": 200.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Bosilkovska 2014 - Bupropion 25 mg Capsule + 50 mg Fluvoxamine + 400 mg Voriconazole (n=10)-Bupropion-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Bosilkovska 2014 - Bupropion 25 mg Capsule + 50 mg Fluvoxamine + 400 mg Voriconazole (n=10)|Organism|PeripheralVenousBlood|Bupropion|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Bosilkovska 2014 - Bupropion 25 mg Capsule + 50 mg Fluvoxamine + 400 mg Voriconazole (n=10)-Hydroxybupropion-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Bosilkovska 2014 - Bupropion 25 mg Capsule + 50 mg Fluvoxamine + 400 mg Voriconazole (n=10)|Organism|PeripheralVenousBlood|Hydroxybupropion|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 4
+              }
+            },
+            {
+              "Name": "Bosilkovska 2014 DDI Inhibitor - Hydroxyburpopion (PVB)-Hydroxybupropion-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "Bosilkovska 2014 DDI Inhibitor - Hydroxyburpopion (n=10)|Time ",
+              "Y": "Bosilkovska 2014 DDI Inhibitor - Hydroxyburpopion (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Hydroxybupropion|Conc ",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Bosilkovska 2014 DDI Inhibitor - Bupropion (PVB)-Bupropion-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "Bosilkovska 2014 DDI Inhibitor - Bupropion (n=10)|Time ",
+              "Y": "Bosilkovska 2014 DDI Inhibitor - Bupropion (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Bupropion|Conc ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Bupropion_upload_github\nBosilkovska 2014 - Bupropion 25 mg Capsule + 50 mg Fluvoxamine + 400 mg Voriconazole, n=10\n2021-03-24 11:37"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Xia 2020",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Voriconazole"
+        },
+        {
+          "Name": "CYP2B6-Jeong 2009",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Voriconazole"
+        },
+        {
+          "Name": "CYP2C19-Jeong 2009",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "Voriconazole"
+        },
+        {
+          "Name": "CYP3A4-Olesen2000/Yao2001",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Fluvoxamine"
+        },
+        {
+          "Name": "CYP2C19-Foti 2008",
+          "MoleculeName": "CYP2C19",
+          "CompoundName": "Fluvoxamine"
+        }
+      ]
+    },
+    {
+      "Name": "Bosilkovska 2014 - 25 mg Capsule Control (n=10)",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Bosilkovska 2014 Control - Bupropion (n=10)",
+        "Bosilkovska 2014 Control - Hydroxyburpopion (n=10)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 180.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 270.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 180.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Bupropion - po, 25 mg sd|Bupropion - Capsule (Geneva Cocktai)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Bupropion|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Hydroxybupropion|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Erythrohydrobupropion|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Threohydrobupropion|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Bupropion|Whole Blood (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Hydroxybupropion|Whole Blood (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Erythrohydrobupropion|Whole Blood (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Threohydrobupropion|Whole Blood (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Bupropion|Plasma Unbound (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Hydroxybupropion|Plasma Unbound (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Erythrohydrobupropion|Plasma Unbound (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Threohydrobupropion|Plasma Unbound (Peripheral Venous Blood)"
+      ],
+      "Individual": "Bosilkovska 2014 (n=10)",
+      "Compounds": [
+        {
+          "Name": "Bupropion",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - Charge dependent Schmitt"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "Name": "CYP2C19-Chen 2010",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "HSD11B1-Wang 2010 - Erythrohydrobupropion",
+              "MoleculeName": "HSD11B1",
+              "MetaboliteName": "Erythrohydrobupropion"
+            },
+            {
+              "Name": "HSD11B1-Wang 2010 - Threohydrobupropion",
+              "MoleculeName": "HSD11B1",
+              "MetaboliteName": "Threohydrobupropion"
+            },
+            {
+              "Name": "CYP2B6-*1 allele 1",
+              "MoleculeName": "CYP2B6",
+              "MetaboliteName": "Hydroxybupropion"
+            },
+            {
+              "Name": "CYP2B6-*6 allele 2",
+              "MoleculeName": "CYP2B6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "HSD11B1"
+            },
+            {
+              "MoleculeName": "CYP2B6"
+            },
+            {
+              "Name": "Binding Partner-Assumed",
+              "MoleculeName": "Binding Partner (NRT)"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            }
+          ],
+          "Protocol": {
+            "Name": "Bupropion - po, 25 mg sd",
+            "Formulations": [
+              {
+                "Name": "Bupropion - Capsule (Geneva Cocktai)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Hydroxybupropion",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - Charge dependent Schmitt"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "UGT2B7-Gufford 2016",
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "HSD11B1"
+            },
+            {
+              "MoleculeName": "CYP2B6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Erythrohydrobupropion",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - Charge dependent Schmitt"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "UGT2B7-Gufford 2016",
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "HSD11B1"
+            },
+            {
+              "MoleculeName": "CYP2B6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Threohydrobupropion",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - Charge dependent Schmitt"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "UGT2B7-Gufford 2016",
+              "MoleculeName": "UGT2B7"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "MoleculeName": "HSD11B1"
+            },
+            {
+              "MoleculeName": "CYP2B6"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 180.0,
+              "Max": 200.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Bosilkovska 2014 - 25 mg Capsule Control (n=10)-Bupropion-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Bosilkovska 2014 - 25 mg Capsule Control (n=10)|Organism|PeripheralVenousBlood|Bupropion|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Bosilkovska 2014 - 25 mg Capsule Control (n=10)-Hydroxybupropion-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Bosilkovska 2014 - 25 mg Capsule Control (n=10)|Organism|PeripheralVenousBlood|Hydroxybupropion|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#008000",
+                "LegendIndex": 4
+              }
+            },
+            {
+              "Name": "Bosilkovska 2014 Control - Hydroxyburpopion (n=10)-Hydroxybupropion-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "Bosilkovska 2014 Control - Hydroxyburpopion (n=10)|Time ",
+              "Y": "Bosilkovska 2014 Control - Hydroxyburpopion (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Hydroxybupropion|Conc ",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Bosilkovska 2014 Control - Bupropion (n=10)-Bupropion-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "Bosilkovska 2014 Control - Bupropion (n=10)|Time ",
+              "Y": "Bosilkovska 2014 Control - Bupropion (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Bupropion|Conc ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Bupropion_upload_github\nBosilkovska 2014 - Male 25 mg Cap Control als 16\n2021-03-24 11:34"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Bosilkovska 2014 DDI Inhibitor - Bupropion (n=10)",
+      "ExtendedProperties": [
+        {
+          "Name": "File",
+          "Value": "Bosilkovska 2014 DDI Inhibitor -"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Bupropion (PVB)"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Bupropion"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Conc ",
+          "RelatedColumns": [
+            {
+              "Name": "SD ",
+              "QuantityInfo": {
+                "Name": "SD ",
+                "Path": "Bosilkovska 2014 DDI Inhibitor - Bupropion (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Bupropion|SD "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2020-04-09T12:49:45.0475009+02:00",
+                "Source": "Bosilkovska 2014 DDI Inhibitor -.Bupropion (PVB).SD [ng/ml]",
+                "MolWeight": 239.741
+              },
+              "Values": [
+                15.1514139,
+                9.427508,
+                5.471279,
+                3.28262568,
+                1.43107772,
+                "NaN",
+                0.0
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Conc ",
+            "Path": "Bosilkovska 2014 DDI Inhibitor - Bupropion (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Bupropion|Conc "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-04-09T12:49:45.0475009+02:00",
+            "Source": "Bosilkovska 2014 DDI Inhibitor -.Bupropion (PVB).Conc [ng/ml]",
+            "MolWeight": 239.741
+          },
+          "Values": [
+            17.8398514,
+            31.6391964,
+            20.6861038,
+            12.0895071,
+            9.890522,
+            5.74487352,
+            4.46107674
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Bosilkovska 2014 DDI Inhibitor - Bupropion (n=10)|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-04-09T12:49:45.0475009+02:00",
+          "Source": "Bosilkovska 2014 DDI Inhibitor -.Bupropion (PVB).Time [h]"
+        },
+        "Values": [
+          180.5,
+          181.0,
+          182.0,
+          183.0,
+          184.0,
+          186.0,
+          188.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Bosilkovska 2014 DDI Inhibitor - Hydroxyburpopion (n=10)",
+      "ExtendedProperties": [
+        {
+          "Name": "File",
+          "Value": "Bosilkovska 2014 DDI Inhibitor -"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Hydroxyburpopion (PVB)"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Hydroxybupropion"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Conc ",
+          "QuantityInfo": {
+            "Name": "Conc ",
+            "Path": "Bosilkovska 2014 DDI Inhibitor - Hydroxyburpopion (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Hydroxybupropion|Conc "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-04-09T12:49:45.0480042+02:00",
+            "Source": "Bosilkovska 2014 DDI Inhibitor -.Hydroxyburpopion (PVB).Conc [ng/ml]",
+            "MolWeight": 255.74
+          },
+          "Values": [
+            0.584059656,
+            2.009566,
+            2.92516017,
+            2.998598,
+            3.66146421,
+            3.303796,
+            3.70370388
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Bosilkovska 2014 DDI Inhibitor - Hydroxyburpopion (n=10)|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-04-09T12:49:45.0480042+02:00",
+          "Source": "Bosilkovska 2014 DDI Inhibitor -.Hydroxyburpopion (PVB).Time [h]"
+        },
+        "Values": [
+          180.490982,
+          181.010834,
+          181.992783,
+          183.013245,
+          184.014435,
+          186.007217,
+          188.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Bosilkovska 2014 Control - Bupropion (n=10)",
+      "ExtendedProperties": [
+        {
+          "Name": "File",
+          "Value": "Bosilkovska 2014 Control -"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Bupropion (PVB)"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Bupropion"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Conc ",
+          "RelatedColumns": [
+            {
+              "Name": "SD ",
+              "QuantityInfo": {
+                "Name": "SD ",
+                "Path": "Bosilkovska 2014 Control - Bupropion (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Bupropion|SD "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2020-08-27T15:13:13.6425787+02:00",
+                "Source": "Bosilkovska 2014 Control T=180 -.Bupropion (PVB).SD [ng/ml]",
+                "MolWeight": 239.741
+              },
+              "Values": [
+                "NaN",
+                "NaN",
+                "NaN",
+                0.275579154,
+                3.41137958,
+                0.9104472,
+                0.6356968,
+                0.127843842
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Conc ",
+            "Path": "Bosilkovska 2014 Control - Bupropion (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Bupropion|Conc "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-08-27T15:13:13.6425787+02:00",
+            "Source": "Bosilkovska 2014 Control T=180 -.Bupropion (PVB).Conc [ng/ml]",
+            "MolWeight": 239.741
+          },
+          "Values": [
+            0.338983059,
+            7.616137,
+            25.7411613,
+            16.99142,
+            9.59719849,
+            6.86419964,
+            4.110066,
+            3.05022573
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Bosilkovska 2014 Control - Bupropion (n=10)|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-08-27T15:13:13.6425787+02:00",
+          "Source": "Bosilkovska 2014 Control T=180 -.Bupropion (PVB).Time [h]"
+        },
+        "Values": [
+          180.0,
+          180.5,
+          181.0,
+          182.0,
+          183.0,
+          184.0,
+          186.0,
+          188.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Bosilkovska 2014 Control - Hydroxyburpopion (n=10)",
+      "ExtendedProperties": [
+        {
+          "Name": "File",
+          "Value": "Bosilkovska 2014 Control -"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Hydroxyburpopion (PVB)"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Hydroxybupropion"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Conc ",
+          "RelatedColumns": [
+            {
+              "Name": "SD ",
+              "QuantityInfo": {
+                "Name": "SD ",
+                "Path": "Bosilkovska 2014 Control - Hydroxyburpopion (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Hydroxybupropion|SD "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2020-08-27T15:13:13.6425787+02:00",
+                "Source": "Bosilkovska 2014 Control T=180 -.Hydroxyburpopion (PVB).SD [ng/ml]",
+                "MolWeight": 255.74
+              },
+              "Values": [
+                7.28855038,
+                6.525631,
+                8.898719,
+                11.1016951,
+                10.3389826,
+                9.745349,
+                7.79702425
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Conc ",
+            "Path": "Bosilkovska 2014 Control - Hydroxyburpopion (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Hydroxybupropion|Conc "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-08-27T15:13:13.6425787+02:00",
+            "Source": "Bosilkovska 2014 Control T=180 -.Hydroxyburpopion (PVB).Conc [ng/ml]",
+            "MolWeight": 255.74
+          },
+          "Values": [
+            6.599395,
+            27.94476,
+            38.1778641,
+            38.32622,
+            37.79661,
+            34.19502,
+            33.55891
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Bosilkovska 2014 Control - Hydroxyburpopion (n=10)|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-08-27T15:13:13.6425787+02:00",
+          "Source": "Bosilkovska 2014 Control T=180 -.Hydroxyburpopion (PVB).Time [h]"
+        },
+        "Values": [
+          180.5,
+          181.0,
+          182.0,
+          183.0,
+          184.0,
+          186.0,
+          188.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ],
+  "ObservedDataClassifications": [
+    {
+      "Name": "Bosilkovska 2014",
+      "Classifications": [
+        {
+          "Name": "Control",
+          "Classifiables": [
+            "Bosilkovska 2014 Control - Bupropion (n=10)",
+            "Bosilkovska 2014 Control - Hydroxyburpopion (n=10)"
+          ]
+        },
+        {
+          "Name": "DDI",
+          "Classifiables": [
+            "Bosilkovska 2014 DDI Inhibitor - Bupropion (n=10)",
+            "Bosilkovska 2014 DDI Inhibitor - Hydroxyburpopion (n=10)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SimulationClassifications": [
+    {
+      "Name": "DDI",
+      "Classifiables": [
+        "Bosilkovska 2014 - 25 mg Capsule Control (n=10)",
+        "Bosilkovska 2014 - Bupropion 25 mg Capsule + 50 mg Fluvoxamine + 400 mg Voriconazole (n=10)"
+      ]
+    }
+  ]
+}
